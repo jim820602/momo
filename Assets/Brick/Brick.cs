@@ -16,7 +16,8 @@ public class Brick : MonoBehaviour {
 	Wall = 0;
 	gameObject.tag = "Player";
 	}
-	
+	//qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+
 	// Update is called once per frame
 	void Update () {
 		if (Road == 0) {
@@ -42,11 +43,13 @@ public class Brick : MonoBehaviour {
 				transform.Translate (0, 1, 0);
 				Keyboard = 1;
 			}
+			//wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
 			if (UpDown != 2 && Input.GetKeyDown (KeyCode.DownArrow)) {
 				transform.Translate (0, -1, 0);
 				Keyboard = 2;
 			}
 		}
+		//aaa
 		if(Road == 2){
 			if (LeftRight != 3 && Input.GetKeyDown (KeyCode.RightArrow)) {
 				transform.Translate (1, 0, 0);
