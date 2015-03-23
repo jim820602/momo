@@ -69,7 +69,7 @@ public class Brick : MonoBehaviour {
 		if(this.tag != "Player"){
 			gameObject.isTrigger.enabed = true;
 		}
-		//Debug.Log (UpDown);
+		Debug.Log (UpDown);
 	}
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "UPDOWN") {
