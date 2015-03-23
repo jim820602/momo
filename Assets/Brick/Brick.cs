@@ -7,6 +7,7 @@ public class Brick : MonoBehaviour {
 	public int Keyboard;
 	public int Road;
 	public int Wall;
+    public int wtf;
 	// Use this for initialization
 	void Start () {
 	UpDown = 0;
