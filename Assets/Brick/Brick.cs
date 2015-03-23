@@ -19,7 +19,7 @@ public class Brick : MonoBehaviour {
 	gameObject.tag = "Player";
 	}
 	//qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-
+	//jim
 	// Update is called once per frame
 	void Update () {
 		if (Road == 0) {
