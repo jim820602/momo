@@ -38,6 +38,7 @@ public class Brick : MonoBehaviour {
 				Keyboard = 4;
 			}
 		}
+		//text
 		if (Road == 1) {
 			if (UpDown != 1 && Input.GetKeyDown (KeyCode.UpArrow)) {
 				transform.Translate (0, 1, 0);
